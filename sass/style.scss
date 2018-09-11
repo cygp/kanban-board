@@ -19,6 +19,9 @@ body {
         background-color: #f77070;
         border: 2px solid #f77070;
       }
+      &:focus {
+        outline: 0;
+      }
     }
     .btn-delete {
       background-color: #f7f1e3;

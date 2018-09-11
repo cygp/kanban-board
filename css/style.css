@@ -8,6 +8,8 @@ body .board .add-card, body .board .create-column { font-size: 18px; background-
 
 body .board .add-card:hover, body .board .create-column:hover { background-color: #f77070; border: 2px solid #f77070; }
 
+body .board .add-card:focus, body .board .create-column:focus { outline: 0; }
+
 body .board .btn-delete { background-color: #f7f1e3; color: #b33939; border: 2px solid #f7f1e3; cursor: pointer; }
 
 body .board .column-container { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; }
