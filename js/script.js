@@ -143,7 +143,7 @@
   var schoolCard1 = new Card('New task');
   var schoolCard2 = new Card('Preparation for the test');
   var schoolCard3 = new Card('English - Homework');
-  var workCard1 = new Card('SEO Raports');
+  var workCard1 = new Card('SEO Reports');
   var workCard2 = new Card('Financial summary');
   var workCard3 = new Card('Implementation of the menu');
   var trainingCard1 = new Card('Intervals - bicycle');
