@@ -41,7 +41,7 @@
           this.element = generateTemplate('board-template', { name: this.name, id: this.id });
           //create column
           this.element.querySelector('.board').addEventListener('click', function (event) {
-            if (event.target.classList.contains('btn-delete-board')) {
+            if (event.target.closest('.board > .btn-delete')) {
               self.removeBoard();
             }
             if (event.target.classList.contains('create-column')) {
